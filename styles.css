@@ -107,6 +107,7 @@
 }
 .palace-content{
   margin: auto;
+  margin-top: 4rem;
   z-index: -1;
 }
   @media only screen and (max-width: 600px) {

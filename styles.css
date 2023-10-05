@@ -105,7 +105,7 @@
   align-content: center;
   align-items: center;
 }
-#palace-content{
+.palace-content{
   margin-left: 200px; 
   z-index: -1;
 }
@@ -118,14 +118,14 @@
         position: sticky;
     }
     
-    #content-contact{
-      gap: 4rem;
+    .content-contact{
+      gap: 2rem;
        flex-direction: column; 
-       align-content: center;
+       align-content: space-around;
        align-items: center;
     }
 
-    #palace-content{
+    .palace-content{
       margin-left: 25%; 
       z-index: -1;
       display: flex;

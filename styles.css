@@ -1,0 +1,130 @@
+.img-header{
+    border-radius: 50%;
+    height: 70px;
+    width: 60px;
+}
+.footer{
+    width: 100%;
+}
+
+
+.c-item{
+    height: 480px;
+
+}
+
+.c-image{
+    border-radius: 7px;
+    height: 100%;
+    object-fit: cover;
+    filter:brightness(0.6) ;
+}
+.carousel{
+    margin-top: 0%;
+    width: 65%;
+    margin-left: 2%;
+    height: 600px;
+    margin-bottom: 0px;
+    padding: 0px;
+    position: sticky;
+}
+
+
+.content {
+    display: flex;
+    margin-top: 2%;
+    justify-content: center;
+    gap: 4rem;
+  }
+
+  .sidebar{
+    width: 380px; border-style: ridge; position: sticky; margin-top: 0px; overflow-y: scroll;max-height: 565px; width: 400px; margin-right: 2%; padding: 0;
+  }
+  .nav-link{
+    color: whitesmoke;
+    text-decoration-style: wavy;
+    
+  }
+  .nav-link:hover {
+    color: whitesmoke;
+    border-radius: 5px;
+    border:1px solid white;
+  }
+
+  .nav-link:focus {
+    color: whitesmoke;
+    border-radius: 5px;
+    border:1px solid white;
+}
+#home-home:not(:focus) {
+  color: whitesmoke;
+  border-radius: 5px;
+  border:1px solid white;
+}
+#about-about:not(:focus) {
+    color: whitesmoke;
+    border-radius: 5px;
+    border:1px solid white;
+}
+#contact-contact:not(:focus) {
+  color: whitesmoke;
+  border-radius: 5px;
+  border:1px solid white;
+}
+
+#palace-palace:not(:focus) {
+  color: whitesmoke;
+  border-radius: 5px;
+  border:1px solid white;
+}
+
+#kekuda-kekuda:not(:focus) {
+  color: whitesmoke;
+  border-radius: 5px;
+  border:1px solid white;
+}
+
+.dropdown-menu{
+    background-color: #3f9e3f; 
+}
+.dropdown:visited{
+    color: whitesmoke
+}
+.dropdown-item{
+    color: whitesmoke;
+}
+.dropdown-item:hover{
+    color: #3f9e3f;
+    border-radius: 5px;
+    border:1px solid white;
+}
+
+  @media only screen and (max-width: 600px) {
+    .carousel{
+        margin-top: 0px;
+        width: 65%;
+        margin-left: 2%;
+        height: 100%;
+        position: sticky;
+    }
+    
+    
+    .content {
+        display: flex;
+        margin-top: 4%;
+        justify-content: center;
+        gap: 4rem;
+      }
+    
+      .sidebar{
+        width: 380px;
+        border-style: ridge;
+        position: sticky;
+        margin-top: 0px;
+        overflow-y: scroll;
+        max-height: 565px;
+        width: 400px;
+        margin-right: 2%;
+        padding: 0;
+      }
+  }

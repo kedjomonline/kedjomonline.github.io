@@ -106,7 +106,7 @@
   align-items: center;
 }
 .palace-content{
-  margin-left: 200px; 
+  margin: auto;
   z-index: -1;
 }
   @media only screen and (max-width: 600px) {
@@ -126,8 +126,7 @@
     }
 
     .palace-content{
-      margin-top: 5%;
-      margin-left: 15%;
+      margin: auto;
      flex-direction: column;
       z-index: -1;
       display: flex;

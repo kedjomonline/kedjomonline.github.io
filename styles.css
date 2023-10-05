@@ -99,11 +99,15 @@
     border:1px solid white;
 }
 
-#content-contact{
+.content-contact{
   gap: 4rem;
   flex-direction: row;
   align-content: center;
   align-items: center;
+}
+#palace-content{
+  margin-left: 200px; 
+  z-index: -1;
 }
   @media only screen and (max-width: 600px) {
     .carousel{
@@ -119,6 +123,13 @@
        flex-direction: column; 
        align-content: center;
        align-items: center;
+    }
+
+    #palace-content{
+      margin-left: 25%; 
+      z-index: -1;
+      display: flex;
+      align-items: center;
     }
     
     .content {

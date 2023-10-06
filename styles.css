@@ -100,6 +100,7 @@
 }
 
 .content-contact{
+  margin: auto;
   gap: 4rem;
   flex-direction: row;
   align-content: center;
@@ -120,6 +121,7 @@
     }
     
     .content-contact{
+      margin: auto;
       gap: 2rem;
        flex-direction: column; 
        align-content: space-around;
@@ -139,6 +141,7 @@
     
     .content {
         display: flex;
+        max-width: auto;
         margin-top: 4%;
         justify-content: center;
         gap: 0.5rem;

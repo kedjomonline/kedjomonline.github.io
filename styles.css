@@ -127,7 +127,7 @@ body{
   margin-top: 0px; overflow-y: scroll;
   max-height: 565px; 
   margin-right: 2%;
-  padding: 0;"
+  padding: 0;
 }
 
   @media only screen and (max-width: 600px) {
@@ -171,7 +171,7 @@ body{
         margin-top: 0px; overflow-y: scroll;
         max-height: 565px; 
         margin-right: 2%;
-        padding: 0;"
+        padding: 0;
       }
       .content-home{
         display: flex;

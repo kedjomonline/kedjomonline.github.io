@@ -133,8 +133,9 @@ body{
   @media only screen and (max-width: 600px) {
     .carousel{
         margin-top: 0px;
-        width: 65%;
+        width: 100%;
         margin-left: 2%;
+        margin-bottom: 2%;
         height: 100%;
         position: sticky;
     }
@@ -157,20 +158,20 @@ body{
     
     .content {
         display: flex;
-        max-width: auto;
+        width: 100%;
         margin-top: 4%;
         justify-content: center;
         gap: 0.5rem;
       }
     
-      .sidebar{
-        border-style: ridge;
-        position: sticky;
-        margin-top: 0px;
-        overflow-y: scroll;
-        max-height: 565px;
+      #sidebar{
+        border-style: ridge; 
+        position: sticky; 
+        width: 100%;
+        margin-top: 0px; overflow-y: scroll;
+        max-height: 565px; 
         margin-right: 2%;
-        padding: 0;
+        padding: 0;"
       }
       .content-home{
         display: flex;
